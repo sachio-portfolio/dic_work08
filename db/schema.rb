@@ -10,24 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 2021_09_19_053004) do
-=======
 ActiveRecord::Schema.define(version: 2021_09_19_050636) do
->>>>>>> 016f22ba4bee36d1b7fc27caaefcba8873f668d1
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-<<<<<<< HEAD
-  create_table "blogs", force: :cascade do |t|
-=======
   create_table "users", force: :cascade do |t|
     t.string "email", null: false
     t.string "name", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
->>>>>>> 016f22ba4bee36d1b7fc27caaefcba8873f668d1
   end
 
 end
